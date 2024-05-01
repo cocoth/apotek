@@ -2,10 +2,7 @@
 import React, { SyntheticEvent, useState } from 'react'
 import {
     AlertDialog,
-    AlertDialogAction,
-    AlertDialogCancel,
     AlertDialogContent,
-    AlertDialogDescription,
     AlertDialogFooter,
     AlertDialogHeader,
     AlertDialogTitle
@@ -94,9 +91,6 @@ const UpdateData = ({ data }: {
             <AlertDialog
                 open={alertDialog}
                 onOpenChange={setAlertDialog}
-            // onClick={(e: SyntheticEvent) => {
-            //     e.stopPropagation()
-            // }}
             >
                 <AlertDialogContent className='rounded-2xl'>
                     <AlertDialogHeader>
