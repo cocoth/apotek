@@ -40,3 +40,5 @@ next-env.d.ts
 
 *-lock.yaml
 *-lock.json
+
+.vercel
